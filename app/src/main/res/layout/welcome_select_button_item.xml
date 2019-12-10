@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/w_s_b_year"
+        android:background="@drawable/w_s_button"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:text="年"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/w_s_b_mounth"
+        android:background="@drawable/w_s_button"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:text="月"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/w_s_b_day"
+        android:background="@drawable/w_s_button"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:text="日"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
