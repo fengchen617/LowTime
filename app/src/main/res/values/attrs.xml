@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LockView">
+        <attr name="normalColor" format="color|reference" />    <!--默认圆颜色-->
+        <attr name="moveColor" format="color|reference" />      <!--手指触摸选中圆颜色-->
+        <attr name="errorColor" format="color|reference" />     <!--手指抬起错误圆颜色-->
+        <attr name="rowCount" format="integer" />               <!--每行每列圆的个数-->
+    </declare-styleable>
+</resources>

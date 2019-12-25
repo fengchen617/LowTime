@@ -38,7 +38,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                Intent intent = new Intent(WelcomeActivity.this, Welcome_Select_Activity.class);
+                Intent intent = new Intent(WelcomeActivity.this, CodeActivity.class);
                 startActivity(intent);
                 finish();
             }

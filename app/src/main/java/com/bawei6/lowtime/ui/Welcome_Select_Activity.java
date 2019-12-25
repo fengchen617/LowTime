@@ -1,5 +1,6 @@
 package com.bawei6.lowtime.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -7,6 +8,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bawei6.lowtime.MainActivity;
 import com.bawei6.lowtime.R;
 import com.bumptech.glide.Glide;
 
@@ -46,7 +48,9 @@ public class Welcome_Select_Activity extends AppCompatActivity implements View.O
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.w_s_b_year:
-
+                startActivity(
+                        new Intent(Welcome_Select_Activity.this, MainActivity.class)
+                );
                 break;
             case R.id.w_s_b_mounth:
 
